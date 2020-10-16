@@ -16,16 +16,25 @@ Some python martingale simulation scripts
 * [Typescript](https://www.typescriptlang.org/)
 ### Installation Commands
 `npm install mongoose parse5`
+
 `npm install -D nodemon typescript ts-node @types/mongoose @types/node @types/parse5`
+
 `npm i -g typescript ts-node`
+
 `tsc --init`
+
 ## Configuration
 ### package.json
 Edit "main": to point to "src/app.ts"
+
 `"main": "src/app.ts",`
+
 Add "dev" script
+
 `"dev": "nodemon src/app.ts"`
+
 ### tsconfig.json
+
 `{
 	"compilerOptions": {
 		"target": "es6",
@@ -36,6 +45,8 @@ Add "dev" script
 	},
 	"include": ["src"],
 }`
+
 ## Run
 Run the dev script, which will insert the sessions into the monitor
+
 `npm run dev` 
